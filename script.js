@@ -151,4 +151,12 @@ switch (dia) {
 }
     */
 
-// EJERCICIO 1: 
+// EJERCICIO 2:
+/*utilizando la etructura switch realizar el siguiente ejercicio:
+
+el usuario digite nombre y edad con la siguiente verificacion
+1 a 18 años es joven
+19 a 40 años es adulto
+41 a 60 años es maduro
+61 en adelante es anciano
+*/
