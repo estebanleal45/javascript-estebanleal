@@ -92,7 +92,7 @@ ejemplo:
 
 */
 
-let numero = parseInt(prompt("Ingresa un número para mostrar su tabla "));
+/*let numero = parseInt(prompt("Ingresa un número para mostrar su tabla "));
 
 if (!isNaN(numero)) {
   let mensaje = `Tabla del ${numero}:\n\n`;
@@ -105,6 +105,50 @@ if (!isNaN(numero)) {
 } else {
   alert("Por favor, ingresa un número válido.");
 }
+  */
 
 
+// SWITCH
 
+// EJERCICIO 1: 
+/*Realizar un programa que determine que dia de la semana corresponde 
+hoy, ingresando o utilizando la funcion prompt
+
+
+const dia=new Date().getDay();
+switch (dia) {
+  case 1:
+    console.log("¡Hoy es lunes formacion con gonzalo! 😢")
+    break
+
+    case 2:
+    console.log("¡Hoy es martes formacion con jesus silva! 😢")
+    break
+
+    case 3:
+    console.log("¡Hoy es miercoless formacion con gonzalo! 😢")
+    break
+
+    case 4:
+    console.log("¡Hoy es jueves formacion con emerson! 😢")
+    break
+
+    case 5:
+    console.log("¡Hoy es viernes formacion con jesus silva! 😢")
+    break
+
+    case 6:
+    console.log("¡Hoy es sabado de descanso! 😢")
+    break
+
+    case 0:
+    console.log("¡Hoy es domingo de descanso! 😢")
+    break
+
+  default:
+    console.log("No corresponde al dia de la semana! 🚀")
+    break
+}
+    */
+
+// EJERCICIO 1: 
