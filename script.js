@@ -159,4 +159,30 @@ el usuario digite nombre y edad con la siguiente verificacion
 19 a 40 años es adulto
 41 a 60 años es maduro
 61 en adelante es anciano
+
+
+let nombre = prompt("Ingrese su nombre:");
+let edad = parseInt(prompt("Ingrese su edad:"), 10);
+if (isNaN(edad) || edad < 1) {
+  console.log("Edad no válida. Debe ingresar un número mayor a 0.");
+} else {
+  let categoria;
+switch (true) {
+  case (edad >= 1 && edad <= 18):
+      categoria = "joven";
+      break;
+  case (edad >= 19 && edad <= 40):
+      categoria = "adulto";
+      break;
+  case (edad >= 41 && edad <= 60):
+      categoria = "maduro";
+      break;
+  case (edad >= 61):
+      categoria = "anciano";
+      break;
+  default:
+      categoria = "desconocida";
+}
+console.log(`${nombre}, según tu edad (${edad} años), eres considerado ${categoria}.`);
+}
 */
