@@ -186,3 +186,101 @@ switch (true) {
 console.log(`${nombre}, según tu edad (${edad} años), eres considerado ${categoria}.`);
 }
 */
+
+/////////////////////////////////////////////////////////////////////////
+//EJERCICIOS JAVASCRIPT//
+
+/* 1. Programa que dada la edad de una persona indique si es mayor o menor de
+edad. Se considera mayor de edad a partir de los 18 años.
+
+let edad2 = parseInt(prompt("Ingrese su edad"));
+
+if (edad2 >= 18) {
+    alert("Hola," + " eres mayor de edad");
+} else {
+    alert("Hola," + " eres menor de edad");}*/
+
+
+
+/* 3. Dado dos números A y B, determinar si A es mayor, menor o igual que B.
+
+let A = parseFloat(prompt("Ingrese el primer número (A):"));
+let B = parseFloat(prompt("Ingrese el segundo número (B):"));
+
+if (isNaN(A) || isNaN(B)) {
+    alert("Error: Debe ingresar valores numéricos.");
+} else {
+   
+    if (A > B) {
+        alert("El número " + A + " es mayor que " + B);
+    } else if (A < B) {
+        alert("El número " + A + " es menor que " + B);
+    } else {
+        alert("El número " + A + " es igual a " + B);
+    }
+}
+    */
+
+
+  /* 5. Dado el peso de una persona:
+
+  let peso = parseInt(prompt("ingrese su peso"));
+
+if (peso <= 40) {
+    alert("Persona baja de peso");
+}else if (peso <= 70) {
+    alert("Persona peso promedio");
+}else{
+    alert("Persona con sobrepeso");
+}*/
+
+/* 7. En un almacén se hace un 20% de descuento a los clientes cuya compra
+supere los $1000, a los demás solo se les hace un 5% de descuento ¿ Cuál
+será la cantidad que pagara una persona por su compra?
+
+
+let compra = prompt("Ingrese el valor de la compra:");
+
+if (compra > 1000) {
+    totalPagar = compra * 0.80; 
+} else {
+    totalPagar = compra * 0.95;
+}
+alert("El total a pagar después del descuento es: $" + totalPagar);*/
+
+
+/* 9. Programa que lea los nombres y edades de dos personas e imprima cuál de
+ellas tiene más edad.
+
+let nombre1 = prompt("Ingrese el nombre de la primera persona:");
+let edad1 = Number(prompt("Ingrese la edad de " + nombre1 + ":"));
+
+let nombre2 = prompt("Ingrese el nombre de la segunda persona:");
+let edad2 = Number(prompt("Ingrese la edad de " + nombre2 + ":"));
+
+if (edad1 > edad2) {
+  alert(nombre1 + " es mayor que " + nombre2);
+} else if (edad2 > edad1) {
+  alert(nombre2 + " es mayor que " + nombre1);
+} else {
+  alert(nombre1 + " y " + nombre2 + " tienen la misma edad.");
+}
+*/
+
+
+/* 11.Leer 2 números; si son iguales que los multiplique, si el primero es mayor
+que el segundo que los reste y si no que los sume.
+
+let num1 = Number(prompt("Ingrese el primer número:"));
+let num2 = Number(prompt("Ingrese el segundo número:"));
+
+if (num1 === num2) {
+  resultado = num1 * num2;
+} else if (num1 > num2) {
+  resultado = num1 - num2;
+} else {
+  resultado = num1 + num2;
+}
+alert("El resultado es: " + resultado);
+
+ */
