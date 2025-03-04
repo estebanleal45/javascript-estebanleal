@@ -187,7 +187,7 @@ console.log(`${nombre}, según tu edad (${edad} años), eres considerado ${categ
 }
 */
 
-/////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////
 //EJERCICIOS JAVASCRIPT//
 
 /* 1. Programa que dada la edad de una persona indique si es mayor o menor de
@@ -284,3 +284,83 @@ if (num1 === num2) {
 alert("El resultado es: " + resultado);
 
  */
+
+
+/* 13.Escribe un programa que determine si un número ingresado por el usuario
+es par o impar.
+
+let numero = Number(prompt("Ingrese un numero"));
+if (numero % 2===0) {
+  alert("El numero " + numero + " es par.");
+} else {
+  alert("El numero " + numero + " es impar.");
+}
+  */
+
+
+
+/* 15.Crea un programa que solicite un número y verifique si es positivo, negativo
+o igual a cero.
+
+let numero = Number(prompt("Ingrese un numero"));
+  if (numero > 0) {
+    alert("el numero " + numero + " es positivo.");
+  } else if (numero < 0) {
+    alert("El numero " + numero + " es negativo");
+  } else {
+    alert("El numero es cero.")
+  }
+*/
+
+
+/* 17.Escribe un programa que permita al usuario seleccionar una figura
+geométrica (triángulo y cuadrado) y luego calcule el área de esa figura
+ingresando los datos necesarios para cada caso.
+
+let figura = prompt("Seleccione una figura geométrica (triangulo o cuadrado):");
+
+let area;
+
+if (figura === "triangulo") {
+    
+    let base = Number(prompt("Ingrese la base del triangulo:"));
+    let altura = Number(prompt("Ingrese la altura del triangulo:"));
+    
+    
+    area = (base * altura) / 2;
+    
+   
+    alert("El área del triangulo es: " + area);
+
+} else if (figura === "cuadrado") {
+    
+    let lado = Number(prompt("Ingrese el lado del cuadrado:"));
+    
+    
+    area = lado * lado;
+    
+   
+    alert("El área del cuadrado es: " + area);
+
+} else {
+    alert("Opción no válida. Debe elegir entre 'triángulo' o 'cuadrado'.");
+}
+*/
+
+
+/* 19.Diseña un programa que solicite el nombre de un usuario y su contraseña. Si
+el nombre es "admin" y la contraseña es "12345", muestra un mensaje de
+acceso concedido; de lo contrario, muestra un mensaje de acceso denegado.
+
+let usuario = prompt("Ingrese su nombre de usuario:");
+let contraseña = prompt("Ingrese su contraseña:");
+
+if (usuario === "admin" && contraseña === "12345") {
+    alert("Acceso concedido");
+} else {
+    alert("Acceso denegado");
+}
+    */
+
+
+
